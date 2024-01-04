@@ -2,10 +2,10 @@
   "name": "chai-and-deploy",
   "version": "1.0.0",
   "description": "",
-  "exports": "./index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "set PORT=4002 && nodemon index.js"
+    "start": "set PORT=4002 && nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,9 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
   }
 }
